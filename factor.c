@@ -27,5 +27,3 @@ int main (int arg1,char *arg2[])
   }
   exit();
 }
-
-
