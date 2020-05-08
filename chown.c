@@ -27,7 +27,6 @@ int main(int argc, char **argv)
         
         if(gid_sekarang == 0)
         {
-            printf(2, "Group %s tidak ditemukan\n", group);
             exit();
         }
 
@@ -40,7 +39,6 @@ int main(int argc, char **argv)
 
         if(uid_sekarang == 0)
         {
-            printf(2, "User %s tidak ditemukan", user);
             exit();
         }
 
