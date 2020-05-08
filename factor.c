@@ -22,7 +22,7 @@ int main (int arg1,char *arg2[])
   int i, n;
   for(i = 1; i < arg1; i++){
     n = atoi(arg2[i]);
-      printf(1,"%d: ", n);
+      printf(1, "%d: ", n);
       faktorprima(n);
   }
   exit();
